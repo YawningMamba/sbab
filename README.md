@@ -1,18 +1,18 @@
 Structure
 =========
 
-| ./docker------------------------------------------------------------------------Docker build file
-| ./src/main/java-----------------------------------------------------------------Backend
-| ./src/main/js-------------------------------------------------------------------Frontend
-| ./src/main/resources------------------------------------------------------------Frontend resources
-| ./src/test----------------------------------------------------------------------Test files
-|
-| ./src/main/java/sbab/ServerMain.java--------------------------------------------Server start point
-| ./src/main/java/sbab/sl/api/SLHTTP.java-----------------------------------------Handles comunication to external API
-| ./src/main/java/sbab/sl/api/aggregation/LinesAggregator.java--------------------Aggregates data from external API
-| ./src/main/java/sbab/toplist/TopList.java---------------------------------------Supplies frontend
-| ./src/main/java/sbab/toplist/TopListAPI.java------------------------------------Supplies API
-| ./src/main/java/sbab/toplist/TopListDataContainer.java--------------------------Holds API data
+./docker------------------------------------------------------------------------Docker build file
+./src/main/java-----------------------------------------------------------------Backend
+./src/main/js-------------------------------------------------------------------Frontend
+./src/main/resources------------------------------------------------------------Frontend resources
+./src/test----------------------------------------------------------------------Test files
+
+./src/main/java/sbab/ServerMain.java--------------------------------------------Server start point
+./src/main/java/sbab/sl/api/SLHTTP.java-----------------------------------------Handles comunication to external API
+./src/main/java/sbab/sl/api/aggregation/LinesAggregator.java--------------------Aggregates data from external API
+./src/main/java/sbab/toplist/TopList.java---------------------------------------Supplies frontend
+./src/main/java/sbab/toplist/TopListAPI.java------------------------------------Supplies API
+./src/main/java/sbab/toplist/TopListDataContainer.java--------------------------Holds API data
 
 Build & run instructions 
 ========================
